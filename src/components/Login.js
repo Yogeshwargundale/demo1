@@ -5,34 +5,37 @@ import "../login.css";
 class Login extends React.Component{
     render(){
         return(
-            <div style={{align:"center"}}>
-            <br /><br /><br />
 
-                <Row justify={"center"}>
-                    {/* <Col span={8}></Col> */}
+            <div style={{ background: '#ECECEC' }}>
+                <br/>
+                <br/>
+                <br/>
+
+                <Row>
 
  {/* Login Card  */}
 
-                    <Col span={12} offset={6}>
+                    <Col lg={24} offset={9} >
                     <Card title="Login Form" style={{width:300 ,height:300}}>
 
-<Form layout="vertical">
-<div class="input-custom">
-    <Input placeholder="email id"></Input><br />
-    <Input placeholder="password"></Input><br />
-</div>
+                            <Form layout="vertical">
+                            <div class="input-custom">
+                                <Input placeholder="email id"></Input><br />
+                                <Input placeholder="password"></Input><br />
+                            </div>
 
-<Button type="primary">sign in</Button>
-</Form>
+                            <Button type="primary">sign in</Button>
+                            </Form>
 
-</Card>
+                    </Card>
                     </Col>
 
 
-                    {/* <Col span={8}></Col> */}
                 </Row>
                 
-                
+                <br/>
+                <br/>
+                <br/>
             </div>
         )
     }
