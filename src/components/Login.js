@@ -15,8 +15,9 @@ class Login extends React.Component{
 
  {/* Login Card  */}
 
+                   
                     <Col lg={24} offset={9} >
-                    <Card title="Login Form" style={{width:300 ,height:300}}>
+                    <Card title="Login Form" style={{width:300 ,height:300,}}>
 
                             <Form layout="vertical">
                             <div class="input-custom">
@@ -24,7 +25,7 @@ class Login extends React.Component{
                                 <Input placeholder="password"></Input><br />
                             </div>
 
-                            <Button type="primary">sign in</Button>
+                            <Button type="primary" htmlType="submit">sign in</Button>
                             </Form>
 
                     </Card>
