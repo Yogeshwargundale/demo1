@@ -9,7 +9,7 @@ class Login extends React.Component{
                 <h3>Login page</h3>
                 <Form layout="vertical">
                 <div class="input-custom">
-                    <Input placeholder="email id"></Input><br />
+                    <Input placeholder="email_id"></Input><br />
                     <Input placeholder="password"></Input><br />
                 </div>
                 
