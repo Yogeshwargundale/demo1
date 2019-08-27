@@ -1,10 +1,20 @@
 import React from 'react';
-
+import { Form,Input, Button } from 'antd';
+import "antd/dist/antd.css";
+import "../login.css";
 class Login extends React.Component{
     render(){
         return(
             <div>
-                Login page
+                <h3>Login page</h3>
+                <Form layout="vertical">
+                <div class="input-custom">
+                    <Input placeholder="email id"></Input><br />
+                    <Input placeholder="password"></Input><br />
+                </div>
+                
+                <Button type="primary">sign_in</Button>
+                </Form>
             </div>
         )
     }
